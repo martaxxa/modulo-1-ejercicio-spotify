@@ -1,3 +1,35 @@
 .header {
+    font-family: $fontfamily-web;
     background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    &__logo {
+        width: 90px;
+        height: auto;
+    }
+
+    &__nav {
+        color: white;
+    }
+
+    &__menu {
+        
+    }
+
+    &__menu-list {
+        list-style-type: none;
+    }
+
+    &__menu-links {
+        text-decoration: none;
+        color: white;
+        justify-content: end;
+    }
+
 }

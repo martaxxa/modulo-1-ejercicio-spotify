@@ -1,0 +1,9 @@
+.inicio {
+    font-family: $fontfamily-web;
+
+    &__title {
+        font-family: $fontfamily-name-inicio;
+        font-weight: $fontweight-name-inicio;
+        font-size: $fontsize-name-inicio;
+    }
+  }
