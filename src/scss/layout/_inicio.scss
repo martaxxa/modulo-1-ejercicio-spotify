@@ -1,9 +1,46 @@
 .inicio {
     font-family: $fontfamily-web;
-
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 10px;
+    
     &__title {
-        font-family: $fontfamily-name-inicio;
-        font-weight: $fontweight-name-inicio;
-        font-size: $fontsize-name-inicio;
+        font-family: $fontfamily-title;
+        font-weight: $fontweight-title;
+        font-size: 45px;
+        margin-top: 100px;
+        color: white;
+        padding-bottom: 25px;
+        line-height: 50px;
+    }
+
+    &__subtitle {
+        font-weight: $fontweight-secondary;
+        font-size: 24px;
+        color: white;
+        line-height: 30px;
+        padding-bottom: 25px;
+    }
+
+    &__button {
+        font-family: $fontfamily-web;
+        font-weight: $fontweight-secondary;
+        background-color: $secondary-color;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        width: 100%;
+        padding: 10px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    &__conditions {
+        font-family: $fontfamily-web;
+        font-size: 10px;
+        color: white;
+        line-height: 15px;
+        margin-bottom: 15px;
     }
   }

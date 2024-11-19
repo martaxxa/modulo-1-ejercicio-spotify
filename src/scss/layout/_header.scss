@@ -8,28 +8,30 @@
     position: fixed;
     width: 100%;
     top: 0;
+    justify-content: space-between;
 
     &__logo {
         width: 90px;
         height: auto;
     }
 
-    &__nav {
-        color: white;
-    }
-
-    &__menu {
+    &__hamburguesa {
+        width: 30px;
+        height: auto;
+        display: block;
         
     }
 
+    /*&__nav {
+        color: white;
+    }
     &__menu-list {
         list-style-type: none;
     }
-
     &__menu-links {
         text-decoration: none;
         color: white;
         justify-content: end;
-    }
+    }*/
 
 }
